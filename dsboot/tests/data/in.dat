@@ -1,0 +1,20 @@
+$ORIGIN .
+test.example        3600    IN      CDS     17514 13 2 ba591a0751ce5e6f824398303d57fa766cb4d85db600c3da471edfd8330187f7
+test.example        3600    IN      DNSKEY  257 3 13 7BOWDw313HbPVNdqIaWUwBaLDQydSOE2BRqN6idpUr5ZJivYrzCmV+sSl1mR6Ioir7rqOyDm7Ns+6pr02ZvJjA==
+test.example        3600    IN      NS      ns2.invalid.
+test.example        3600    IN      NS      ns1.invalid.
+test.example	60	IN	AAAA	::1
+test2.example        3600    IN      CDNSKEY 257 3 13 yviCmpnj+PAgCiQi7e9sews7INIobm68GBYe8lSJU29AZqu5p6T4QknKYqZLy8m+AsND0Ni9ExDFbL18xBKaDg==
+test2.example        3600    IN      CDS     34484 13 4 ebe6cec38c12b3ec2fcfed56c2283061b9dae39d801895965ab1d0d794f55cc8a6cc3c7239f4730ff7711da19b94a8c5
+test2.example        3600    IN      CDS     34484 13 2 f0b7e2ada7f853179359c452393c948a0a2832629ff5e7609be6657158c85c0b
+test2.example        3600    IN      DNSKEY  257 3 13 wY5M0qs89YK7qk6WihvjcDhPFuch+v6ND2vM/5G+/w41oqlpeexqxb30FctoOQx9M1XPY8njKrMwwMFLLZvFuQ==
+test2.example        3600    IN      NS      ns.example.org.
+test2.example        3600    IN      NS      ns2.invalid.
+test2.example        3600    IN      NS      ns.example.net.
+test2.example	60	IN	AAAA	::1
+test2.example        3600    IN      CDNSKEY 257 3 13 thovQlFf/JPtJF0GAR9hPAHySXJ/rD9hVmdqgPA6oZKqkYQYp7c28gsr/d28WBDLO/XW8edFGvEaKkNwhh2IwQ==
+test3.example        3600    IN      NS      ns.example.org.
+
+. 0 IN NS ns1.provider.test.  ; fall-back NS
+. 0 IN NS ns2.provider.test.  ; fall-back NS
+test4.example.       3600    IN      CDS     2371 13 2 32996839A6D808AFE3EB4A795A0E6A7A39A76FC52FF228B22B76F6D63826F2B9

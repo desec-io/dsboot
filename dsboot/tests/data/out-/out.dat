@@ -1,0 +1,34 @@
+$ORIGIN _signal.ns1.invalid.
+@ 3600 IN NS ns1.invalid.
+_dsboot.test.example 3600 IN CDS 17514 13 2 ba591a0751ce5e6f824398303d57fa766cb4d85db600c3da471edfd8330187f7
+
+$ORIGIN _signal.ns2.invalid.
+@ 3600 IN NS ns2.invalid.
+_dsboot.test.example 3600 IN CDS 17514 13 2 ba591a0751ce5e6f824398303d57fa766cb4d85db600c3da471edfd8330187f7
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 thovQlFf/JPtJF0GAR9hPAHySXJ/rD9h VmdqgPA6oZKqkYQYp7c28gsr/d28WBDL O/XW8edFGvEaKkNwhh2IwQ==
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 yviCmpnj+PAgCiQi7e9sews7INIobm68 GBYe8lSJU29AZqu5p6T4QknKYqZLy8m+ AsND0Ni9ExDFbL18xBKaDg==
+_dsboot.test2.example 3600 IN CDS 34484 13 2 f0b7e2ada7f853179359c452393c948a0a2832629ff5e7609be6657158c85c0b
+_dsboot.test2.example 3600 IN CDS 34484 13 4 ebe6cec38c12b3ec2fcfed56c2283061b9dae39d801895965ab1d0d794f55cc8a6cc3c7239f4730ff7711da19b94a8c5
+
+$ORIGIN _signal.ns.example.net.
+@ 3600 IN NS ns.example.net.
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 thovQlFf/JPtJF0GAR9hPAHySXJ/rD9h VmdqgPA6oZKqkYQYp7c28gsr/d28WBDL O/XW8edFGvEaKkNwhh2IwQ==
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 yviCmpnj+PAgCiQi7e9sews7INIobm68 GBYe8lSJU29AZqu5p6T4QknKYqZLy8m+ AsND0Ni9ExDFbL18xBKaDg==
+_dsboot.test2.example 3600 IN CDS 34484 13 2 f0b7e2ada7f853179359c452393c948a0a2832629ff5e7609be6657158c85c0b
+_dsboot.test2.example 3600 IN CDS 34484 13 4 ebe6cec38c12b3ec2fcfed56c2283061b9dae39d801895965ab1d0d794f55cc8a6cc3c7239f4730ff7711da19b94a8c5
+
+$ORIGIN _signal.ns.example.org.
+@ 3600 IN NS ns.example.org.
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 thovQlFf/JPtJF0GAR9hPAHySXJ/rD9h VmdqgPA6oZKqkYQYp7c28gsr/d28WBDL O/XW8edFGvEaKkNwhh2IwQ==
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 yviCmpnj+PAgCiQi7e9sews7INIobm68 GBYe8lSJU29AZqu5p6T4QknKYqZLy8m+ AsND0Ni9ExDFbL18xBKaDg==
+_dsboot.test2.example 3600 IN CDS 34484 13 2 f0b7e2ada7f853179359c452393c948a0a2832629ff5e7609be6657158c85c0b
+_dsboot.test2.example 3600 IN CDS 34484 13 4 ebe6cec38c12b3ec2fcfed56c2283061b9dae39d801895965ab1d0d794f55cc8a6cc3c7239f4730ff7711da19b94a8c5
+
+$ORIGIN _signal.ns1.provider.test.
+@ 3600 IN NS ns1.provider.test.
+_dsboot.test4.example 3600 IN CDS 2371 13 2 32996839a6d808afe3eb4a795a0e6a7a39a76fc52ff228b22b76f6d63826f2b9
+
+$ORIGIN _signal.ns2.provider.test.
+@ 3600 IN NS ns2.provider.test.
+_dsboot.test4.example 3600 IN CDS 2371 13 2 32996839a6d808afe3eb4a795a0e6a7a39a76fc52ff228b22b76f6d63826f2b9
+

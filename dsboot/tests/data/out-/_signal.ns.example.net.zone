@@ -1,0 +1,6 @@
+$ORIGIN _signal.ns.example.net.
+@ 3600 IN NS ns.example.net.
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 thovQlFf/JPtJF0GAR9hPAHySXJ/rD9h VmdqgPA6oZKqkYQYp7c28gsr/d28WBDL O/XW8edFGvEaKkNwhh2IwQ==
+_dsboot.test2.example 3600 IN CDNSKEY 257 3 13 yviCmpnj+PAgCiQi7e9sews7INIobm68 GBYe8lSJU29AZqu5p6T4QknKYqZLy8m+ AsND0Ni9ExDFbL18xBKaDg==
+_dsboot.test2.example 3600 IN CDS 34484 13 4 ebe6cec38c12b3ec2fcfed56c2283061b9dae39d801895965ab1d0d794f55cc8a6cc3c7239f4730ff7711da19b94a8c5
+_dsboot.test2.example 3600 IN CDS 34484 13 2 f0b7e2ada7f853179359c452393c948a0a2832629ff5e7609be6657158c85c0b
