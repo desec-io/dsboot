@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dsboot",
-    version="0.1",
+    version="1.0.1",
     author="Peter Thomassen",
     author_email="peter@desec.io",
-    description="Generate signaling records for Authenticated DNSSEC Bootstrapping from existing zones.",
+    description="Generate signaling records for Authenticated DNSSEC Bootstrapping (RFC 9615).",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/desec-io/dsboot",

@@ -11,7 +11,7 @@ This package can be installed using [`pip`](https://pypi.org/project/pip/), pref
 
     $ python3 -m venv venv
     $ source venv/bin/activate
-    (venv)$ pip install -e .
+    (venv)$ pip install dsboot
     (venv)$ dsboot_generate --help
 
 
